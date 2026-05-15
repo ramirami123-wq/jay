@@ -254,54 +254,13 @@
         "padding_bottom": 36
       }
     },
-    "guarantees_QbnCCW": {
-      "type": "guarantees",
-      "blocks": {
-        "guarantee_ej4aWF": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Delivery all over lebanon",
-            "title_size": "h3",
-            "text": ""
-          }
-        },
-        "guarantee_g6xKng": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "chat_bubble",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "24/7 support",
-            "title_size": "h3",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "guarantee_ej4aWF",
-        "guarantee_g6xKng"
-      ],
-      "name": "t:sections.guarantees.presets.name",
+    "custom_liquid_Q4phqW": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "layout": "default",
-        "column_alignment": "left",
-        "horizontal_content": false,
+        "custom_liquid": "{% comment %} Jaysou's guarantees / trust row {% endcomment %}\n<style>\n  .js-trust {\n    background: #F2EBE0;\n    padding: 56px 24px;\n    border-top: 1px solid rgba(31, 27, 23, 0.08);\n    border-bottom: 1px solid rgba(31, 27, 23, 0.08);\n  }\n  .js-trust-grid {\n    max-width: 1100px;\n    margin: 0 auto;\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n    gap: 32px;\n  }\n  .js-trust-item {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    text-align: center;\n    gap: 14px;\n  }\n  .js-trust-icon {\n    width: 28px;\n    height: 28px;\n    color: #1F1B17;\n    flex-shrink: 0;\n    opacity: 0.85;\n  }\n  .js-trust-title {\n    font-family: 'Cormorant Garamond', serif;\n    font-weight: 500;\n    font-size: 18px;\n    color: #1F1B17;\n    line-height: 1.3;\n    margin: 0;\n    letter-spacing: -0.005em;\n  }\n  .js-trust-sub {\n    font-family: 'Inter', sans-serif;\n    font-size: 12px;\n    color: rgba(31, 27, 23, 0.6);\n    margin: 0;\n    line-height: 1.4;\n    letter-spacing: 0.02em;\n  }\n  @media (max-width: 749px) {\n    .js-trust { padding: 36px 16px; }\n    .js-trust-grid { grid-template-columns: 1fr 1fr; gap: 24px 16px; }\n    .js-trust-title { font-size: 16px; }\n    .js-trust-icon { width: 24px; height: 24px; }\n  }\n</style>\n\n<div class=\"js-trust\">\n  <div class=\"js-trust-grid\">\n    <div class=\"js-trust-item\">\n      <svg class=\"js-trust-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M16 16h2l3-5h-5\"/><path d=\"M9 16h7V5H2v11h2\"/><circle cx=\"7\" cy=\"16\" r=\"2\"/><circle cx=\"18\" cy=\"16\" r=\"2\"/></svg>\n      <p class=\"js-trust-title\">Lebanese delivery</p>\n      <p class=\"js-trust-sub\">$3 flat shipping</p>\n    </div>\n    <div class=\"js-trust-item\">\n      <svg class=\"js-trust-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"2\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/></svg>\n      <p class=\"js-trust-title\">Cash on delivery</p>\n      <p class=\"js-trust-sub\">Pay when it arrives</p>\n    </div>\n    <div class=\"js-trust-item\">\n      <svg class=\"js-trust-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 12a9 9 0 1 0 3-6.7\"/><polyline points=\"3 4 3 10 9 10\"/></svg>\n      <p class=\"js-trust-title\">30-day returns</p>\n      <p class=\"js-trust-sub\">Full refund, no questions</p>\n    </div>\n    <div class=\"js-trust-item\">\n      <svg class=\"js-trust-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2C8 6 6 9 6 13a6 6 0 0 0 12 0c0-4-2-7-6-11z\"/></svg>\n      <p class=\"js-trust-title\">Made for sensitive skin</p>\n      <p class=\"js-trust-sub\">Calming, never stripping</p>\n    </div>\n  </div>\n</div>",
         "full_width": false,
         "show_divider": false,
-        "columns_desktop": 4,
-        "heading": "Guarantees",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -314,6 +273,6 @@
     "rich_text_iPTEGL",
     "scrolling_promotion_yJEgih",
     "custom_liquid_ywTH4J",
-    "guarantees_QbnCCW"
+    "custom_liquid_Q4phqW"
   ]
 }
