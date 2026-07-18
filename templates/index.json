@@ -58,79 +58,32 @@
         "padding_bottom": 36
       }
     },
-    "featured_product_RCYCaB": {
-      "type": "featured-product",
-      "blocks": {
-        "title_7PbUaC": {
-          "type": "title",
-          "settings": {
-            "title_size": "h2",
-            "title_tag": "h2",
-            "show_price": false,
-            "price_size": "medium"
-          }
-        },
-        "rating_AN8Hkq": {
-          "type": "rating",
-          "settings": {}
-        },
-        "price_7c3cKU": {
-          "type": "price",
-          "settings": {
-            "price_size": "medium",
-            "show_badges": true,
-            "sale_badge_basis": "percentage"
-          }
-        },
-        "custom_liquid_9wDUPc": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #FFFFFF; font-size: 15px; border-radius: 10px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">🌿 Calms on contact</span> – Guaiazulene-tinted blue clay cools the skin and soothes irritation while it works.<br><br>\n<span style=\"font-weight: bold;\">💧 Triple-acid complex</span> – AHA, BHA, and PHA lift blackheads from inside the pore without over-drying.<br><br>\n<span style=\"font-weight: bold;\">⏱ Three-minute treatment</span> – Visibly tighter pores in under five minutes. Once or twice a week.<br><br>\n<span style=\"font-weight: bold;\">🧴 Five clays, no fillers</span> – A mineral-rich blend that gently exfoliates without stripping sensitive skin.\n</div>"
-          }
-        },
-        "variant_picker_txHV9a": {
-          "type": "variant_picker",
-          "settings": {
-            "show_variant_labels": true,
-            "picker_type": "button",
-            "enable_color_swatches": true,
-            "swatches_source": "file",
-            "swatch_type": "round",
-            "enable_swatch_cross": true,
-            "enable_swatch_unavailable_click": false,
-            "size_chart": ""
-          }
-        },
-        "buy_buttons_jtWcw8": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_quantity_selector": true,
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": false
-          }
-        }
-      },
-      "block_order": [
-        "title_7PbUaC",
-        "rating_AN8Hkq",
-        "price_7c3cKU",
-        "custom_liquid_9wDUPc",
-        "variant_picker_txHV9a",
-        "buy_buttons_jtWcw8"
-      ],
-      "name": "t:sections.featured-product.presets.name",
+    "featured_collection_9ddmyQ": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "product": "medicube-zero-pore-blackhead-mud-facial-mask-blue",
-        "layout": "media_first",
-        "full_width": false,
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "horizontal_scroll": false,
+        "show_view_all": true,
         "show_divider": false,
-        "show_featured_media": false,
-        "hide_variants": false,
-        "enable_image_zoom": false,
-        "enable_video_looping": false,
-        "image_ratio": "adapt_first",
+        "heading": "Featured collection",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
         "image_position": "center center",
-        "enable_layered_images": false,
+        "enable_image_fill": true,
+        "show_secondary_image": false,
+        "secondary_image_max": 1,
+        "show_vendor": false,
+        "show_rating": false,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -268,7 +221,7 @@
   },
   "order": [
     "slideshow",
-    "featured_product_RCYCaB",
+    "featured_collection_9ddmyQ",
     "scrolling_promotion_gqQrxK",
     "rich_text_iPTEGL",
     "scrolling_promotion_yJEgih",
